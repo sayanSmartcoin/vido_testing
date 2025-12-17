@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2685.3">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Courier; color: #2a373e; -webkit-text-stroke: #2a373e; background-color: #eef0f1}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Courier; color: #2a373e; -webkit-text-stroke: #2a373e; background-color: #eef0f1; min-height: 17.0px}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Courier; color: #18702b; -webkit-text-stroke: #18702b; background-color: #eef0f1}
+    span.s1 {font-kerning: none}
+    span.s2 {font-kerning: none; color: #b60e18; -webkit-text-stroke: 0px #b60e18}
+    span.s3 {font-kerning: none; color: #164fc7; -webkit-text-stroke: 0px #164fc7}
+    span.s4 {font-kerning: none; color: #18702b; -webkit-text-stroke: 0px #18702b}
+    span.s5 {font-kerning: none; color: #2a373e; -webkit-text-stroke: 0px #2a373e}
+    span.s6 {font-kerning: none; color: #7f0be0; -webkit-text-stroke: 0px #7f0be0}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">&lt;!DOCTYPE html&gt;</span></p>
+<p class="p1"><span class="s1">&lt;html&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;body&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;!-- </span><span class="s2">1.</span><span class="s1"> The &lt;iframe&gt; (</span><span class="s3">and</span><span class="s1"> video player) will replace this &lt;div&gt; tag. --&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div id=</span><span class="s4">"player"</span><span class="s1">&gt;&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;!DOCTYPE html&gt;</span></p>
+<p class="p1"><span class="s1">&lt;html&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;head&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;style&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>/* Responsive 16:9 container */</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>.video-container {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>position: relative;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>width: 100%;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>padding-bottom: 56.25%; /* 16:9 aspect ratio */</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>height: 0;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>overflow: hidden;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>/* YouTube iframe fills the container */</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>#player iframe {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>position: absolute;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>top: 0;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>left: 0;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>width: 100%;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>height: 100%;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/head&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;body&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="video-container"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;div id="player"&gt;&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;script&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>// Load YouTube IFrame API asynchronously</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>var tag = document.createElement("script");</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>tag.src = "https://www.youtube.com/iframe_api";</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>var firstScriptTag = document.getElementsByTagName("script")[0];</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>var player;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>function onYouTubeIframeAPIReady() {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>player = new YT.Player("player", {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>width: "100%",</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>height: "100%",</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>videoId: "M7lc1UVf-VE",</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>playerVars: {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>playsinline: 1</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>},</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>events: {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>onReady: onPlayerReady,</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>onStateChange: onPlayerStateChange</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>});</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>function onPlayerReady(event) {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>event.target.playVideo();</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>var done = false;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>function onPlayerStateChange(event) {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>if (event.data === YT.PlayerState.PLAYING &amp;&amp; !done) {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>setTimeout(stopVideo, 6000);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>done = true;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>function stopVideo() {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>player.stopVideo();</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/script&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/body&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/html&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;script&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>// </span><span class="s2">2.</span><span class="s1"> This code loads the IFrame Player API code asynchronously.</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s3">var</span><span class="s1"> tag = document.createElement(</span><span class="s4">'script'</span><span class="s1">);</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p3"><span class="s5"><span class="Apple-converted-space">      </span>tag.src = </span><span class="s1">"https://www.youtube.com/iframe_api"</span><span class="s5">;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s3">var</span><span class="s1"> firstScriptTag = document.getElementsByTagName(</span><span class="s4">'script'</span><span class="s1">)[</span><span class="s2">0</span><span class="s1">];</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>// </span><span class="s2">3.</span><span class="s1"> This function creates an &lt;iframe&gt; (</span><span class="s3">and</span><span class="s1"> YouTube player)</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>//<span class="Apple-converted-space">    </span>after the API code downloads.</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s3">var</span><span class="s1"> player;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>function onYouTubeIframeAPIReady() {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>player = new YT.Player(</span><span class="s4">'player'</span><span class="s1">, {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>height: </span><span class="s4">'390'</span><span class="s1">,</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>width: </span><span class="s4">'640'</span><span class="s1">,</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>videoId: </span><span class="s4">'M7lc1UVf-VE'</span><span class="s1">,</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>playerVars: {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s4">'playsinline'</span><span class="s1">: </span><span class="s2">1</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>},</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>events: {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s4">'onReady'</span><span class="s1">: onPlayerReady,</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s4">'onStateChange'</span><span class="s1">: onPlayerStateChange</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>});</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>// </span><span class="s2">4.</span><span class="s1"> The API will call this function when the video player </span><span class="s3">is</span><span class="s1"> ready.</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>function onPlayerReady(event) {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>event.target.playVideo();</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>// </span><span class="s2">5.</span><span class="s1"> The API calls this function when the player</span><span class="s4">'s state changes.</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>//<span class="Apple-converted-space">    </span>The function indicates that when playing a video (state=</span><span class="s2">1</span><span class="s1">),</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>//<span class="Apple-converted-space">    </span>the player should play </span><span class="s3">for</span><span class="s1"> six seconds </span><span class="s3">and</span><span class="s1"> then stop.</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s3">var</span><span class="s1"> done = </span><span class="s6">false</span><span class="s1">;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>function onPlayerStateChange(event) {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s3">if</span><span class="s1"> (event.data == YT.PlayerState.PLAYING &amp;&amp; !done) {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>setTimeout(stopVideo, </span><span class="s2">6000</span><span class="s1">);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>done = </span><span class="s6">true</span><span class="s1">;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>function stopVideo() {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>player.stopVideo();</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/script&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/body&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/html&gt;</span></p>
+</body>
+</html>
